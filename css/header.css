@@ -8,7 +8,8 @@ header {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
 }
 .info-bar1 {
   font-family: "PuradakGentleGothicR";
@@ -32,14 +33,14 @@ header {
 .info-bar2 {
   display: flex;
   flex-direction: row;
-  justify-content: end;
+  justify-content: flex-end;
   align-items: center;
   cursor: pointer;
 }
 .info-bar2_icons {
   position: absolute;
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
   cursor: pointer;
   padding-right: 200px;
   width: 40px;
@@ -51,6 +52,7 @@ header {
   border-radius: 20px;
   font-size: 12px;
   position: absolute;
+  justify-content: flex-end;
   margin: 20px;
 }
 .info-bar2_icons img {
